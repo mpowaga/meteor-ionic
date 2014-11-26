@@ -1,0 +1,3 @@
+[submodule "ionic"]
+	path = ionic
+	url = https://github.com/driftyco/ionic
