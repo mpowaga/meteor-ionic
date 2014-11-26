@@ -21,6 +21,13 @@ Package.onUse(function(api) {
   api.imply('fourseven:scss', ['server']);
 
   api.addFiles([
+    'assets/fonts/ionicons.svg',
+    'assets/fonts/ionicons.ttf',
+    'assets/fonts/ionicons.eot',
+    'assets/fonts/ionicons.woff'
+  ], 'client');
+
+  api.addFiles([
     'client/templates/ionHeader.html',
     'client/templates/ionFooter.html',
     'client/templates/ionButton.html',
