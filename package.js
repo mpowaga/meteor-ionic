@@ -23,8 +23,10 @@ Package.onUse(function(api) {
   api.addFiles([
     'client/templates/ionHeader.html',
     'client/templates/ionFooter.html',
+    'client/templates/ionButton.html',
     'client/templates/ionHeader.js',
-    'client/templates/ionFooter.js'
+    'client/templates/ionFooter.js',
+    'client/templates/ionButton.js'
   ], 'client');
 
   api.addFiles([
